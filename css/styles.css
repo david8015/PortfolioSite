@@ -1,0 +1,88 @@
+body, h1, h2, h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700px;
+}
+
+h1, h2, h3{
+    font-size: 2.5rem;
+}
+
+header.masthead {
+    position: relative;
+    background: url(https://res.cloudinary.com/david8015/image/upload/v1537531845/NYC-Skyline.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+@media (min-width:768px) {
+    header.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem
+    }
+
+    header.masthead h1 {
+        font-size: 3rem
+    }
+
+}
+
+@media (max-width:767px) {
+    header.masthead {
+        padding-top: 6rem;
+        padding-bottom: 6rem
+    }
+
+    header.masthead h1 {
+        font-size: 3rem
+    }
+
+}
+
+.showcase .showcase-text {
+    padding: 3rem
+}
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover
+}
+
+@media (min-width:768px) {
+    .showcase .showcase-text {
+        padding: 7rem
+    }
+
+}
+
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem
+}
+
+.features-icons .features-icons-item {
+    max-width: 20rem
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+    font-size: 6rem
+}
+
+.list-inline-item:hover{
+  font-size: 1.1rem;
+}
+
+footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem
+}
+
+.center{
+        background: no-repeat center; 
+}
